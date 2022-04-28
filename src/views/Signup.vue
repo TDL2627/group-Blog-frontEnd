@@ -8,10 +8,10 @@
     <input type="text" class="form-control" id="name">
   </div>
     <div class="mb-3">
-    <label for="name" class="form-label">What are you?</label>
-<select class="form-control" name="type" id="type">
-    <option value="Blogger">Blogger</option>
-     <option value="Reader">Reader</option>
+          <label for="type" class="form-label">WHAT ARE YOU?</label>
+<select id="type" class="form-select" aria-label="Default select example">
+  <option value="Blogger">Blogger</option>
+  <option value="Reader">Reader</option>
 </select>
   </div>
   <div class="mb-3">
