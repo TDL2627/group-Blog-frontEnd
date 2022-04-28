@@ -32,7 +32,7 @@
 </button>
         </li>
          <li class="nav-item">
-            <router-link class="nav-link" to="/">LOGOUT</router-link>
+            <router-link class="btn btn-danger" to="/">LOGOUT</router-link>
         </li>
       
       </ul>
