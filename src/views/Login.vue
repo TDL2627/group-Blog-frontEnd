@@ -12,8 +12,8 @@
     <label for="exampleInputPassword1" class="form-label">Password</label>
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
- 
-  <button type="submit" class="btn btn-primary">Submit</button>
+ <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+  <button  class="btn btn-primary"><router-link to="/blogs">SUBMIT</router-link> </button>
 </form>
   </div>
 </template>
@@ -29,5 +29,9 @@ form{
     border: 5px solid black;
     margin: 5%;
     padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 </style>

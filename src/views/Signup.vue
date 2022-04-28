@@ -7,6 +7,13 @@
     <label for="name" class="form-label">Full Name</label>
     <input type="text" class="form-control" id="name">
   </div>
+    <div class="mb-3">
+    <label for="name" class="form-label">What are you?</label>
+<select class="form-control" name="type" id="type">
+    <option value="Blogger">Blogger</option>
+     <option value="Reader">Reader</option>
+</select>
+  </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Email address</label>
     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -17,7 +24,8 @@
     <input type="password" class="form-control" id="exampleInputPassword1">
   </div>
  
-  <button type="submit" class="btn btn-primary">Submit</button>
+ <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+  <button  class="btn btn-primary"><router-link to="/blogs">SUBMIT</router-link> </button>
 </form>
   </div>
 </template>
@@ -33,5 +41,9 @@ form{
     border: 5px solid black;
     margin: 5%;
     padding: 5%;
+}
+a{
+    text-decoration: none;
+    color: white;
 }
 </style>
