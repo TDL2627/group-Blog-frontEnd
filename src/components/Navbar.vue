@@ -27,9 +27,14 @@
         </li>
     
 <li class="nav-item">
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
- CREATE BLOG
-</button>
+      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+</button> -->
+     <!-- <div data-bs-toggle="modal" data-bs-target="#exampleModal">
+       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+       </svg>
+     </div>  -->
+
         </li>
          <li class="nav-item">
             <router-link class="btn btn-danger" to="/">LOGOUT</router-link>
@@ -49,7 +54,7 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">CREATE BLOG</h5>
+        <h5 class="modal-title" id="exampleModalLabel"><img ></h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
@@ -81,6 +86,12 @@
   </div>
 </nav>
 
+
+     <div class="create" data-bs-toggle="modal" data-bs-target="#exampleModal">
+       <svg style="width:64px;height:64px" viewBox="0 0 24 24">
+        <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+       </svg>
+     </div> 
   </div>
 </template>
 
@@ -91,5 +102,9 @@ export default {
 </script>
 
 <style scoped>
+
+.create {
+  padding-top: 40px;
+}
 
 </style>
