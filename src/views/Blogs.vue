@@ -264,9 +264,8 @@ export default {
 </script>
 
 <style scoped>
-<<<<<<< HEAD
-.btn{
-  
+.container{
+  padding-top: 70px;
 }
 .card {
   border: none;
@@ -342,14 +341,5 @@ export default {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
   background: #234f6d;
   background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #455f71 100%);
-=======
-
-.container{
-  padding-top: 70px;
-}
-
-.card{
-    margin: 2%;
->>>>>>> 91eeb8e949ab27632d2690b5fd37a05a760d9c78
 }
 </style>
