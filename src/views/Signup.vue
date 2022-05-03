@@ -113,6 +113,12 @@ export default {
 </script>
 
 <style scoped>
+ #signup{
+   background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(85, 80, 80, 0.7)), url("https://i.postimg.cc/15wrsMZJ/write-5243230-1920.jpg");
+   background-size: cover;
+   height: 100vh;
+ }
+
   .cascading-right {
       margin-right: -50px;
     }
@@ -131,13 +137,5 @@ export default {
     padding-right: 90%;
   }
 
-/* form{
-    border: 5px solid black;
-    margin: 5%;
-    padding: 5%;
-}
-a{
-    text-decoration: none;
-    color: white;
-} */
+
 </style>

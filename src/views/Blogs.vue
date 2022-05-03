@@ -15,7 +15,6 @@
            <div class="media">
   <div class="media-body">
      <button class="btn " >Update</button>
-          <button class="btn"><router-link to="/blog">View</router-link></button>
      <button class="btn">delete</button>
   </div>
 </div>
@@ -34,7 +33,7 @@
           </div>
           <div class="card-footer">
            <div class="media">
-     <button class="btn">View</button>
+          <button class="btn" ><router-link to="/blog" class="router">View</router-link></button>
 </div>
           </div>
         </div>
@@ -173,9 +172,13 @@ export default {
 #blogs{
   margin: 0px 0px 15px 1px;
 }
+.router{
+  color: black;
+}
 .btn{
-  background: #dadada;
+  background:  #dadada;
   margin: 3px 3px 3px;
+  color: black;
 }
 .media-body{
 align-content: space-between;
