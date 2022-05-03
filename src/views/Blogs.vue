@@ -2,7 +2,7 @@
   <div id="blogs">
       <Navbar/>
 
-      <!-- <div class="container">
+      <!-- rtfv<div class="container">
           <div class="row">
 <div class="col-lg-3">
 <div class="card" style="width: 18rem;">
