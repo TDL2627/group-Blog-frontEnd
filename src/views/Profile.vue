@@ -20,8 +20,16 @@
 
 <script>
 export default {
+ data() {
+     return {
+         id: localStorage.getItem("id"),
 
-}
+         fullname: localStorage.getItem(fullname),
+         email: localStorage.getItem("email"),
+         phone_number: localStorage.getItem("phone_number"),
+     };
+ },
+};
 </script>
 
 <style scoped>
