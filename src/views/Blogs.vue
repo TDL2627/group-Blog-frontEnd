@@ -8,22 +8,22 @@
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
-            <small class="card-meta mb-2">Thought Leadership</small>
             <h4 class="card-title mt-0 "><a class="text-white" herf="#">title</a></h4>
            <small><i class="far fa-clock"></i> October 15, 2020</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-     <button class="btn mr-3" >update</button>
-          <button class="btn"><router-link to="/blog">view</router-link></button>
+     <button class="btn " >Update</button>
+          <button class="btn"><router-link to="/blog">View</router-link></button>
      <button class="btn">delete</button>
-
   </div>
 </div>
           </div>
         </div>
-      </div></div>
+      </div>
+          reaction 
+      </div>
        <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
@@ -161,13 +161,21 @@
 <script>
 import Navbar from "../components/Navbar.vue";
 export default {
-    components: { Navbar }
+    components: { Navbar },
+    methods: {
+      
+    }
+
 }
 </script>
 
 <style scoped>
+#blogs{
+  margin: 0px 0px 15px 1px;
+}
 .btn{
-  background: #044572;
+  background: #dadada;
+  margin: 3px 3px 3px;
 }
 .media-body{
 align-content: space-between;
@@ -178,9 +186,9 @@ align-content: space-between;
   transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
   overflow: hidden;
   border-radius: 20px;
-  min-height: 450px;
+  min-height: 390px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
+  margin-top: 50px;
   }
 @media (max-width: 768px) {
   .card {
@@ -250,3 +258,4 @@ align-content: space-between;
   background: linear-gradient(0deg, rgba(35, 79, 109, 0.3785889356) 0%, #455f71 100%);
 }
 </style>
+
