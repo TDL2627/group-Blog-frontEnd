@@ -109,7 +109,7 @@
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-     <button class="btn" >update</button>
+     <button class="btn mr-3" >update</button>
           <button class="btn"><router-link to="/blog">view</router-link></button>
      <button class="btn">delete</button>
 
@@ -262,7 +262,10 @@ export default {
 <style scoped>
 .btn{
   background: #044572;
-  
+}
+.media-body{
+align-content: space-between;
+
 }
 .card {
   border: none;

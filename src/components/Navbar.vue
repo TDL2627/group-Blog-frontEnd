@@ -11,9 +11,38 @@
         <li class="nav-item">
             <router-link class="nav-link active" to="/blogs">BLOGS</router-link>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
      <router-link class="nav-link" to="/profile">PROFILE</router-link>
+        </li> -->
+       
+          <!-- <li class="nav-item dropdown rounded">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fa fa-user"></i>Profile</a>
+          <div class="dropdown-menu dropdown-menu-end" id="naav" aria-labelledby="navbarDropdown">
+            <router-link to="/profile"><a class="dropdown-item">Account</a></router-link>
+			<hr class="dropdown-divider">
+            <router-link to="/login"><li><a class="dropdown-item">Login</a></li></router-link>
+            
+              <hr class="dropdown-divider">
+            
+            <li><a class="dropdown-item" @click="logout">Logout</a></li>
+          </div>
+        </li> -->
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-user"></i> Profile
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><router-link to="/profile"><a class="dropdown-item">Account</a></router-link></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li class="nav-item">
+            <router-link class="btn btn-danger" to="/">LOGOUT</router-link>
         </li>
+          </ul>
+        </li>
+
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             CATERGORY
@@ -27,18 +56,10 @@
         </li>
     
 <li class="nav-item">
-      <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-</button> -->
-     <!-- <div data-bs-toggle="modal" data-bs-target="#exampleModal">
-       <svg style="width:24px;height:24px" viewBox="0 0 24 24">
-        <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
-       </svg>
-     </div>  -->
+
 
         </li>
-         <li class="nav-item">
-            <router-link class="btn btn-danger" to="/">LOGOUT</router-link>
-        </li>
+   
       
       </ul>
       <form class="d-flex">
@@ -102,6 +123,9 @@ export default {
 </script>
 
 <style scoped>
+.btn {
+  margin-left: 27px;
+}
 
 .create {
   padding-top: 40px;
