@@ -4,8 +4,10 @@
 <h1 class="text-pop-up-top">SUPER-BLOG</h1>
 
     <div class="container">
+          <h1 class="animate__animated animate__bounce">SUPER BLOG</h1>
       <div class="row">
     <div class="col-lg-6">
+
         <router-link to="/login">LOG IN</router-link>
       </div>
            <div class="col-lg-6">

@@ -64,7 +64,7 @@ export default {
 
 <style>
 .container-fluid {
-  width: 65%;
+  width: 60%;
 }
 .btn {
 	/* display: block; */
@@ -78,5 +78,22 @@ export default {
 	text-decoration:none;
 	text-shadow: -1px -1px 1px #616161;
 	position: relative; */
+    margin: 3px 3px 3px;
+
+}
+.card{
+  border-radius: 15px;
+  border: solid black 5px;
+  /* background-color: dimgrey; */
+}
+.card-img-top{
+padding: 7px 7px 7px 7px;
+}
+.card-title{
+  font-size: xx-large;
+  font-family: cursive;
+}
+.card-text{
+  font-size: large;
 }
 </style>
