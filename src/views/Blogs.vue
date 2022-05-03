@@ -261,6 +261,7 @@ export default {
 
 <style scoped>
 .btn{
+  background: #044572;
   
 }
 .card {
@@ -270,7 +271,8 @@ export default {
   border-radius: 20px;
   min-height: 450px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
-}
+  margin-bottom: 10px;
+  }
 @media (max-width: 768px) {
   .card {
     min-height: 350px;
