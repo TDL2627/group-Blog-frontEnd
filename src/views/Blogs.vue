@@ -103,14 +103,14 @@
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
             <small class="card-meta mb-2">Thought Leadership</small>
-            <h4 class="card-title mt-0 "><a class="text-white" herf="#">Goverment Lorem Ipsum Sit Amet Consectetur dipisi?</a></h4>
+            <h4 class="card-title mt-0 "><a class="text-white" herf="#">title</a></h4>
            <small><i class="far fa-clock"></i> October 15, 2020</small>
           </div>
           <div class="card-footer">
            <div class="media">
   <div class="media-body">
-     <button class="btn">delete</button>
-          <button class="btn">delete</button>
+     <button class="btn" >update</button>
+          <button class="btn"><router-link to="/blog">view</router-link></button>
      <button class="btn">delete</button>
 
   </div>
@@ -128,11 +128,7 @@
           </div>
           <div class="card-footer">
            <div class="media">
-  <img class="mr-3 rounded-circle" src="https://cdn0.iconfinder.com/data/icons/user-pictures/100/male-512.png" alt="Generic placeholder image" style="max-width:50px">
-  <div class="media-body">
-    <h6 class="my-0 text-white d-block">Oz COruhlu</h6>
-     <small>Director of UI/UX</small>
-  </div>
+     <button class="btn">View</button>
 </div>
           </div>
         </div>
