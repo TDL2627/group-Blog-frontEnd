@@ -21,7 +21,9 @@
           </div>
         </div>
       </div>
-          <div class="reaction">reaction</div> 
+          <div class="reaction">
+
+          </div> 
       </div>
        <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
@@ -166,6 +168,7 @@ export default {
     }
 
 }
+
 </script>
 
 <style scoped>
@@ -179,9 +182,9 @@ export default {
   color: black;
   text-decoration: none;
 }
-.reaction{
-color: aliceblue;
-}
+/* .reaction{
+color: rgb(101, 112, 121);
+} */
 .btn{
   background:  #dadada;
   margin: 3px 3px 3px;
