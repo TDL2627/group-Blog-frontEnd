@@ -171,7 +171,7 @@ export default {
 <style scoped>
 #blogs{
   /* margin: 0px 0px 15px 1px; */
-     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(85, 80, 80, 0.7)), url("https://i.postimg.cc/SKvrQQDh/table-4074014-960-720.jpg");
+     /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(85, 80, 80, 0.7)), url("https://i.postimg.cc/SKvrQQDh/table-4074014-960-720.jpg"); */
         background-size: cover;
 
 }
