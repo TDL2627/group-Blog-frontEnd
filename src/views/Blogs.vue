@@ -21,7 +21,7 @@
           </div>
         </div>
       </div>
-          reaction 
+          <div class="reaction">reaction</div> 
       </div>
        <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
@@ -170,10 +170,17 @@ export default {
 
 <style scoped>
 #blogs{
-  margin: 0px 0px 15px 1px;
+  /* margin: 0px 0px 15px 1px; */
+     background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(85, 80, 80, 0.7)), url("https://i.postimg.cc/SKvrQQDh/table-4074014-960-720.jpg");
+        background-size: cover;
+
 }
 .router{
   color: black;
+  text-decoration: none;
+}
+.reaction{
+color: aliceblue;
 }
 .btn{
   background:  #dadada;
@@ -192,6 +199,8 @@ align-content: space-between;
   min-height: 390px;
   box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
   margin-top: 50px;
+  margin-bottom: 15px;
+
   }
 @media (max-width: 768px) {
   .card {

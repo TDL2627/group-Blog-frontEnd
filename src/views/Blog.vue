@@ -63,31 +63,33 @@ export default {
 </script>
 
 <style>
+#blog{
+  height: 112vh;
+  background-color: rgb(255, 249, 249);
+  /* margin-bottom: 10px; */
+}
 .container-fluid {
   width: 60%;
 }
 .btn {
-	/* display: block; */
-	/* line-height: 56px; */
 	text-align: center;
 	color: white;
-    position: relative;
+  position: relative;
   padding: 15px 20px;
-	/* font-family: Helvetica, Arial, Sans-Serif;
-	font-size: 20px;
-	text-decoration:none;
-	text-shadow: -1px -1px 1px #616161;
-	position: relative; */
-    margin: 3px 3px 3px;
+  margin: 3px 3px 3px;
 
 }
 .card{
   border-radius: 15px;
   border: solid black 5px;
+  background-color: rgb(91, 91, 91);
+  height: 102vh;
   /* background-color: dimgrey; */
 }
 .card-img-top{
 padding: 7px 7px 7px 7px;
+  border-radius: 15px;
+
 }
 .card-title{
   font-size: xx-large;
