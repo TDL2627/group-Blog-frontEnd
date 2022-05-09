@@ -78,7 +78,7 @@ export default {
 .btn {
 	text-align: center;
 	color: white;
-    position: relative;
+  position: relative;
   padding: 15px 20px;
     margin: 3px 3px 3px;
 
@@ -86,10 +86,11 @@ export default {
 .card{
   border-radius: 15px;
   border: solid black 5px;
-
 }
 .card-img-top{
 padding: 7px 7px 7px 7px;
+  border-radius: 15px;
+
 }
 .card-title{
   font-size: xx-large;
