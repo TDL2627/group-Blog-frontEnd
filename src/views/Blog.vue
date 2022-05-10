@@ -14,10 +14,10 @@
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 <div>
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
 EDIT
 </button>
-<button class="btn btn-danger">DELETE</button>
+<button class="btn">DELETE</button>
 </div>
   </div>
 </div>
@@ -61,6 +61,7 @@ EDIT
 </template>
 
 <script>
+
 export default {
 
 }
@@ -78,11 +79,11 @@ export default {
 }
 .btn {
 	text-align: center;
-	color: white;
   position: relative;
   padding: 15px 20px;
   margin: 3px 3px 3px;
-
+  background:  #dadada;
+  color: black;
 }
 .card{
   border-radius: 15px;

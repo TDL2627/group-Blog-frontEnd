@@ -4,7 +4,8 @@
 
     <div class="container">
   <div class="row">
-     <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
+     <div class="col-md-3">
+       <div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
          <div class="card-body">
@@ -22,7 +23,7 @@
         </div>
       </div>
           <div class="reaction">
-
+            reaction
           </div> 
       </div>
        <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
@@ -39,7 +40,11 @@
 </div>
           </div>
         </div>
-      </div></div>
+      </div>
+    <div class="reaction">
+            reaction
+          </div> 
+      </div>
        <div class="col-md-3"><div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
          <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tech,street" alt="Goverment Lorem Ipsum Sit Amet Consectetur dipisi?">
         <div class="card-img-overlay d-flex flex-column">
@@ -161,6 +166,7 @@
 
 <script>
 import Navbar from "../components/Navbar.vue";
+
 export default {
     components: { Navbar },
     methods: {
