@@ -17,15 +17,15 @@
           <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
             <p class="lead fw-normal mb-0 me-3">Sign in with</p>
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fa fa-facebook-f"></i>
+              <i class="fa fa-facebook-f"><a href="https://www.facebook.com"></a></i>
             </button>
 
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fa fa-twitter"></i>
+              <i class="fa fa-twitter"><a href="https://twitter.com/"></a></i>
             </button>
 
             <button type="button" class="btn btn-primary btn-floating mx-1">
-              <i class="fa fa-linkedin"></i>
+              <i class="fa fa-linkedin"><a href="https://www.linkedin.com/"></a></i>
             </button>
           </div>
 
@@ -104,6 +104,11 @@ export default {
 .page{
   padding-top: 90px;
   
+}
+
+.vh-100 {
+  overflow-y: hidden;
+ 
 }
 a{
     text-decoration: none;
