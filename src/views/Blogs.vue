@@ -2,7 +2,6 @@
   <div id="blogs">
       <Navbar/>
 
-    <div class="container">
   <!-- <div class="row">
      <div class="col-md-3">
        <div class="card text-white card-has-bg click-col" style="background-image:url('https://source.unsplash.com/600x900/?tech,street');">
@@ -175,7 +174,10 @@
   </div>
   <div class="utility-info">
     <ul class="utility-list">
-      <button><span class="licon icon-like"></span><a href="#">2</a></button>
+      <!-- <button><span class="licon icon-like"></span><a href="#">2</a></button> -->
+       <button class="btn-secondary like-review">
+    <i class="fa fa-heart" aria-hidden="true"></i><a href="#"> 2</a> Likes
+  </button>
     </ul>
   </div>
   <div class="gradient-overlay"></div>
@@ -206,7 +208,6 @@
 
 
 </div>
-  </div>
 </template>
 
 <script>
@@ -215,9 +216,7 @@ import Navbar from "../components/Navbar.vue";
 export default {
     components: { Navbar },
     methods: {
-      
     }
-
 }
 
 </script>
@@ -227,8 +226,8 @@ export default {
   /* margin: 0px 0px 15px 1px; */
      /* background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(85, 80, 80, 0.7)), url("https://i.postimg.cc/SKvrQQDh/table-4074014-960-720.jpg"); */
         background-size: cover;
-
 }
+
 .router{
   color: black;
   text-decoration: none;
@@ -326,7 +325,7 @@ align-content: space-between;
 .blog-card {
   max-width: 550px;
   width:100%;
-  height: 500px;
+  height: 400px;
   position: relative;
   font-family: 'Droid Serif', serif;
   color:#fff;
